@@ -15,8 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-
+from appsource.views import homePageRsp
 urlpatterns = [
-    # path('admin/', admin.site.urls),
-    path('', include('appsource.urls'))
+    path('admin/', admin.site.urls),
+    path('api/', include('appsource.urls')),
+    path('', homePageRsp)
 ]
