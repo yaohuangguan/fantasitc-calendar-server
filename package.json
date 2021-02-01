@@ -1,0 +1,12 @@
+{
+  "name": "fantastic-calendar-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:yaohuangguan/fantasitc-calendar-server.git",
+  "author": "SamYao <yaob@miamioh.edu>",
+  "license": "MIT",
+  "scripts": {
+    "setup": "python3 -m pip install -r requirements.txt & python3 -m pipenv shell",
+    "start": "cd source & python manage.py runserver"
+  }
+}
