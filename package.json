@@ -7,6 +7,6 @@
   "license": "MIT",
   "scripts": {
     "setup": "python3 -m pip install -r requirements.txt & python3 -m pipenv shell",
-    "start": "cd source & python manage.py runserver"
+    "start": "python source/manage.py runserver"
   }
 }
